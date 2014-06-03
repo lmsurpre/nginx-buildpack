@@ -8,7 +8,7 @@ Ensure that your app's root folder has an `index.html` or `index.htm` or `Defaul
 Run:
 
 ```
-cf push --buildpack https://github.com/cloudfoundry-community/nginx-buildpack.git
+cf push -b https://github.com/lmsurpre/nginx-buildpack.git
 ```
 
 ## Custom configuration files
